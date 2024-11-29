@@ -1,0 +1,40 @@
+div {
+    background-color: rgb(179, 163, 180);
+    padding: 10px;
+    border-radius: 12px;
+  }
+  
+  h2{
+    font-style: italic;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+  #button-group {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .secondary-button {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .edit-button {
+    background-color: #ba5cb6;
+    color: #fff;
+  }
+  
+  

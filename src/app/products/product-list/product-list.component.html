@@ -1,0 +1,6 @@
+<div>
+    <h2>MY PRODUCTS</h2>
+    @for(product of allProducts; track product.id){
+      <app-product-item [product]="product"></app-product-item>
+    }
+  </div>

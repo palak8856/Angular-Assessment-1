@@ -1,0 +1,24 @@
+<form [formGroup]="editFormGroup" (ngSubmit)="onSubmit()">
+    <div class="input-field">
+      <label for="id">Product Id</label>
+      <input id="id" disabled [value]="product?.id" />
+    </div>
+    <div class="input-field">
+      <label for="name">Product Name</label>
+      <input type="text" id="name" formControlName="name" />
+    </div>
+    <div class="input-field">
+      <label for="description">Product Description</label>
+      <textarea id="description" formControlName="description"></textarea>
+    </div>
+    <div class="input-field">
+      <label for="availability">Product Availability</label>
+      <select id="availability" formControlName="availability">
+        <option value="Available">Available</option>
+        <option value="Out_of_Stock">Out of Stock</option>
+      </select>
+    </div>
+    <div class="form-button-wrapper">
+      <button [class.disabled]="!isFormDirty()" type="submit">Save</button>
+    </div>
+  </form>

@@ -1,0 +1,31 @@
+#product-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
+    cursor: pointer;
+  }
+  
+  h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+  }
+
+  p{
+    font-style: italic;
+    font-size: 19px;
+  }
+
+  .product-item__available {
+    background-color: #98f398;
+  }
+  
+  .product-item__outOfStock{
+    background-color: #d89393;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }

@@ -1,0 +1,52 @@
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  
+  #id{
+      cursor: not-allowed;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  select {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-button-wrapper {
+    display: flex;
+    justify-content: end;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .input-error {
+    color: red;
+    font-size: 12px;
+  }

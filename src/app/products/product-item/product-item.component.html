@@ -1,0 +1,14 @@
+<a [routerLink]="redirectUrl">
+    <div
+      [class.product-item__available]="product.availability === 'Available'"
+      [class.product-item__outOfStock]="product.availability === 'Out of Stock'"
+      id="product-item"
+    >
+      <div id="product-item-content">
+        <h3>
+          {{ product.name }}
+        </h3>
+        <p>{{ "Availability : " + product.availability }}</p>
+      </div>
+    </div>
+  </a>
